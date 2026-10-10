@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated:** 2026-09-20
+**Last updated:** 2026-10-10
 
 ---
 
@@ -26,6 +26,7 @@ SeeSi may process the following categories of data:
 - diagnostic data, such as crash reports;
 - app analytics data, such as screens viewed and general feature usage, and only if you have turned analytics on;
 - subscription and purchase-related data required to support in-app purchases and subscriptions.
+- technical data needed to deliver notifications, only if you have turned notifications on, as described in section 6;
 - problem reports you choose to send from Help Now, as described in section 5.
 
 SeeSi does not process your private notes, self-reflections, questionnaire answers, or relationship records on external servers for analytics or profiling.
@@ -81,7 +82,19 @@ You can turn location off at any time in iOS Settings. Help Now then uses your d
 
 ---
 
-## 6. How We Use Data
+## 6. Notifications
+
+**Notifications are off until you turn them on.** SeeSi sends only important news about new SeeSi features. You can turn them on when the app offers it once, or in the app under Settings → Notifications, and you can turn them off there or in iOS Settings at any time.
+
+To deliver notifications, SeeSi uses Firebase Cloud Messaging, a service by Google, together with Apple Push Notification service. When you turn notifications on, Firebase receives a technical address of the app on this device (the push token), an identifier of the app installation, and basic device information: device model, language, time zone and operating system version. SeeSi also tells Firebase the language of the app, so that news reaches you in that language. This information is not linked to your name or your account.
+
+Notifications are the same for everyone who turned them on in the same language. They are never based on your answers, the people you added, or anything else you entered, and they never contain such information.
+
+When you turn notifications off in SeeSi or delete your account, the app asks Firebase to delete the push token of this device, and you stop receiving news. If you turn notifications off only in iOS Settings, iOS stops showing them.
+
+---
+
+## 7. How We Use Data
 
 We use the limited data described above only to:
 
@@ -90,6 +103,7 @@ We use the limited data described above only to:
 - maintain app stability and fix crashes;
 - understand general app usage and improve features;
 - support subscriptions and purchase-related functionality.
+- send you news about new features, if you have turned notifications on;
 
 We do not sell your personal data.
 We do not use your data for third-party advertising.
@@ -97,7 +111,7 @@ We do not use your private in-app content for marketing.
 
 ---
 
-## 7. Storage and Processing
+## 8. Storage and Processing
 
 Your private app content, including notes, reflections, answers, and relationship-related entries, is stored locally on your device.
 
@@ -105,7 +119,7 @@ Limited account, analytics, diagnostic, and subscription-related data may be pro
 
 ---
 
-## 8. Third-Party Services
+## 9. Third-Party Services
 
 SeeSi may use third-party service providers for purposes such as:
 
@@ -113,12 +127,13 @@ SeeSi may use third-party service providers for purposes such as:
 - crash reporting;
 - app analytics;
 - subscription and purchase support.
+- delivering notifications;
 
 These services process only the data necessary to perform their function.
 
 ---
 
-## 9. Data Control
+## 10. Data Control
 
 You remain in control of your data.
 
@@ -129,15 +144,16 @@ Within the app, you may be able to:
 - log out of your account;
 - protect access using a PIN code;
 - turn app analytics on or off;
+- turn notifications on or off;
 - turn location for Help Now on or off, in iOS Settings.
 
-Deleting your account removes your locally stored content from your device: the people you added and their photos, and what Help Now had saved — the country, the city, and the countries whose embassies you chose to see.
+Deleting your account removes your locally stored content from your device: the people you added and their photos, and what Help Now had saved — the country, the city, and the countries whose embassies you chose to see. It also turns notifications off for this device.
 
 Deleting the app removes locally stored app content from your device, but it does not automatically delete your account or server-side account access data.
 
 ---
 
-## 10. Children's Privacy
+## 11. Children's Privacy
 
 SeeSi is not intended for children under the age of 13.
 
@@ -147,7 +163,7 @@ If you believe that a child under 13 has provided personal information through t
 
 ---
 
-## 11. Changes to This Policy
+## 12. Changes to This Policy
 
 This Privacy Policy may be updated from time to time.
 
@@ -155,7 +171,7 @@ Any changes will be published at this location. Continued use of the app after a
 
 ---
 
-## 12. Contact
+## 13. Contact
 
 If you have questions about this Privacy Policy, please contact:
 
