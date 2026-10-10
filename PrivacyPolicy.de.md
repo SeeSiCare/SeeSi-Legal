@@ -1,6 +1,6 @@
 # Datenschutzerklärung
 
-**Zuletzt aktualisiert:** 2026-09-20
+**Zuletzt aktualisiert:** 2026-10-10
 
 > **Hinweis:** Diese Version der Datenschutzerklärung ist eine Übersetzung zur Bequemlichkeit der Nutzer.  
 > Im Falle von Abweichungen oder Auslegungsunterschieden hat die englischsprachige Version des Dokuments Vorrang.
@@ -29,6 +29,7 @@ SeeSi kann die folgenden Datenkategorien verarbeiten:
 - Diagnosedaten, wie z. B. Absturzberichte;
 - App-Analysedaten, wie z. B. aufgerufene Bildschirme und allgemeine Funktionsnutzung, und nur dann, wenn Sie Analysen eingeschaltet haben;
 - abonnements- und kaufbezogene Daten, die zur Unterstützung von In-App-Käufen und Abonnements erforderlich sind.
+- technische Daten, die für die Zustellung von Mitteilungen nötig sind, und nur dann, wenn Sie Mitteilungen eingeschaltet haben, wie in Abschnitt 6 beschrieben;
 - Problemmeldungen, die Sie in „Soforthilfe“ senden, wie in Abschnitt 5 beschrieben.
 
 SeeSi verarbeitet Ihre privaten Notizen, Selbstreflexionen, Antworten auf Fragebögen oder Beziehungsaufzeichnungen nicht auf externen Servern zu Analyse- oder Profiling-Zwecken.
@@ -84,7 +85,19 @@ Sie können den Standort jederzeit in den iOS-Einstellungen ausschalten. „Sofo
 
 ---
 
-## 6. Wie wir Daten verwenden
+## 6. Mitteilungen
+
+**Mitteilungen sind ausgeschaltet, bis Sie sie einschalten.** SeeSi sendet nur wichtige Neuigkeiten zu neuen Funktionen von SeeSi. Sie können sie einschalten, wenn die App es Ihnen einmal anbietet, oder in der App unter Einstellungen → „Mitteilungen“, und Sie können sie dort oder in den iOS-Einstellungen jederzeit wieder ausschalten.
+
+Für die Zustellung verwendet SeeSi Firebase Cloud Messaging, einen Dienst von Google, zusammen mit dem Apple Push Notification Service. Wenn Sie Mitteilungen einschalten, erhält Firebase eine technische Adresse der App auf diesem Gerät (das Push-Token), eine Kennung der App-Installation und grundlegende Geräteangaben: Gerätemodell, Sprache, Zeitzone und Betriebssystemversion. SeeSi teilt Firebase außerdem die Sprache der App mit, damit Neuigkeiten Sie in dieser Sprache erreichen. Diese Angaben werden weder mit Ihrem Namen noch mit Ihrem Konto verknüpft.
+
+Mitteilungen sind für alle gleich, die sie in derselben Sprache eingeschaltet haben. Sie beruhen nie auf Ihren Antworten, den hinzugefügten Personen oder anderen Eingaben und enthalten solche Angaben nie.
+
+Wenn Sie Mitteilungen in SeeSi ausschalten oder Ihr Konto löschen, bittet die App Firebase, das Push-Token dieses Geräts zu löschen, und Sie erhalten keine Neuigkeiten mehr. Wenn Sie Mitteilungen nur in den iOS-Einstellungen ausschalten, zeigt iOS sie nicht mehr an.
+
+---
+
+## 7. Wie wir Daten verwenden
 
 Wir verwenden die oben beschriebenen begrenzten Daten ausschließlich, um:
 
@@ -93,6 +106,7 @@ Wir verwenden die oben beschriebenen begrenzten Daten ausschließlich, um:
 - die Stabilität der App zu gewährleisten und Abstürze zu beheben;
 - die allgemeine Nutzung der App zu verstehen und Funktionen zu verbessern;
 - Abonnements und kaufbezogene Funktionen zu unterstützen.
+- Ihnen Neuigkeiten zu neuen Funktionen zu senden, wenn Sie Mitteilungen eingeschaltet haben;
 
 Wir verkaufen Ihre personenbezogenen Daten nicht.  
 Wir verwenden Ihre Daten nicht für Werbung Dritter.  
@@ -100,7 +114,7 @@ Wir verwenden Ihre privaten In-App-Inhalte nicht für Marketingzwecke.
 
 ---
 
-## 7. Speicherung und Verarbeitung
+## 8. Speicherung und Verarbeitung
 
 Ihre privaten App-Inhalte, einschließlich Notizen, Reflexionen, Antworten und beziehungsbezogenen Einträgen, werden lokal auf Ihrem Gerät gespeichert.
 
@@ -108,7 +122,7 @@ Begrenzte Konto-, Analyse-, Diagnose- und abonnementsbezogene Daten können von 
 
 ---
 
-## 8. Dienste Dritter
+## 9. Dienste Dritter
 
 SeeSi kann vertrauenswürdige Drittanbieter für Zwecke einsetzen wie:
 
@@ -116,12 +130,13 @@ SeeSi kann vertrauenswürdige Drittanbieter für Zwecke einsetzen wie:
 - Absturzberichte;
 - App-Analysen;
 - Unterstützung von Abonnements und Käufen.
+- Zustellung von Mitteilungen;
 
 Diese Dienste verarbeiten nur die Daten, die zur Erfüllung ihrer Funktion erforderlich sind.
 
 ---
 
-## 9. Datenkontrolle
+## 10. Datenkontrolle
 
 Sie behalten die Kontrolle über Ihre Daten.
 
@@ -132,15 +147,16 @@ Innerhalb der App haben Sie die Möglichkeit:
 - sich von Ihrem Konto abzumelden;
 - den Zugriff mit einem PIN-Code zu schützen;
 - App-Analysen ein- oder auszuschalten;
+- Mitteilungen ein- oder auszuschalten;
 - den Standort für „Soforthilfe“ in den iOS-Einstellungen ein- oder auszuschalten.
 
-Wenn Sie Ihr Konto löschen, werden Ihre lokal gespeicherten Inhalte von Ihrem Gerät entfernt: die hinzugefügten Personen und ihre Fotos sowie alles, was „Soforthilfe“ gespeichert hat — das Land, die Stadt und die Länder, deren Botschaften Sie sehen wollten.
+Wenn Sie Ihr Konto löschen, werden Ihre lokal gespeicherten Inhalte von Ihrem Gerät entfernt: die hinzugefügten Personen und ihre Fotos sowie alles, was „Soforthilfe“ gespeichert hat — das Land, die Stadt und die Länder, deren Botschaften Sie sehen wollten. Außerdem werden die Mitteilungen für dieses Gerät ausgeschaltet.
 
 Wenn Sie die App löschen, werden lokal gespeicherte App-Inhalte von Ihrem Gerät entfernt, Ihr Konto oder serverseitig gespeicherte Kontozugangsdaten werden dadurch jedoch nicht automatisch gelöscht.
 
 ---
 
-## 10. Datenschutz für Kinder
+## 11. Datenschutz für Kinder
 
 SeeSi ist nicht für Kinder unter 13 Jahren bestimmt.
 
@@ -150,7 +166,7 @@ Wenn Sie der Ansicht sind, dass ein Kind unter 13 Jahren personenbezogene Inform
 
 ---
 
-## 11. Änderungen an dieser Erklärung
+## 12. Änderungen an dieser Erklärung
 
 Diese Datenschutzerklärung kann von Zeit zu Zeit aktualisiert werden.
 
@@ -158,7 +174,7 @@ Diese Datenschutzerklärung kann von Zeit zu Zeit aktualisiert werden.
 
 ---
 
-## 12. Kontakt
+## 13. Kontakt
 
 Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte:
 
